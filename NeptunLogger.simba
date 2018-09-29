@@ -1,0 +1,25 @@
+program NeptunLogger;
+
+
+
+
+begin
+
+
+
+  while true do
+
+    begin
+
+       wait(5000);
+
+       KeyDown(116);
+       wait(100);
+       KeyUp(116);
+       wait(25000);
+
+     end;
+
+
+
+end.
